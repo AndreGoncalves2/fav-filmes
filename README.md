@@ -22,4 +22,4 @@ Esse projeto consiste em um app de busca de filmes que faz uso da api The Movie 
 - Criação de lista de favoritos 
 - Apresenta informações relevantes sobre o filme em foco
 
-Clique para visualizar o projeto online: <a href="https://andregoncalves2.github.io/formulario/">projeto</a>
+Clique para visualizar o projeto online: <a href="https://andregoncalves2.github.io/fav-filmes">projeto</a>
