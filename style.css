@@ -771,6 +771,11 @@ button.scroll-top a {
     #modal-wrapper::-webkit-scrollbar {
         width: 0px;
     }
+    
+    #modal .footer {
+        border-bottom-left-radius: 2rem;
+        border-bottom-right-radius: 2rem;
+    }
 
     .sections div {
         overflow: hidden;
