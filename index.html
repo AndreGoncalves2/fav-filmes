@@ -1,0 +1,158 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+
+    <script src="https://kit.fontawesome.com/63fd0281a0.js" crossorigin="anonymous"></script>
+    
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    
+    <link href="https://fonts.googleapis.com/css2?family=Chivo+Mono:wght@400;700&display=swap" rel="stylesheet">
+    <link href="https://fonts.googleapis.com/css2?family=Roboto:wght@400;700&display=swap" rel="stylesheet"/>
+    
+    <link rel="shortcut icon" href="./assets/favico.png" type="image/x-icon">
+    <link rel="stylesheet" href="style.css" />
+    
+    <title>FavFilms</title>
+  </head>
+  <body>
+    <header>
+
+      <div class="logo">
+        <a href="#">
+          <img src="./assets/logo.png" alt="Logo">
+        </a>
+      </div>
+      
+      <div class="menu">
+        <div class="search-wrapper">
+          <div class="search">
+            <div class="input">
+    
+              <label for="fav-input" class="sr-only">
+                Digite o nome do filme
+              </label>
+              <input
+                id="fav-input"
+                class="input-hidden"
+                type="text"
+                placeholder="Digite o nome do filme"
+              />
+            </div>
+          </div>
+
+          <button id="button-search">
+            <i class="fa-solid fa-magnifying-glass fa-2xl"></i></button>
+          </div>
+          
+          <button id="open-button">
+            <i class="fa-solid fa-bars fa-2xl"> </i>
+          </button>
+          
+          <button id="close-button" class="button-hidden">
+            <i class="fa-solid fa-arrow-right fa-2xl"></i>
+          </button>    
+        </div>
+      </div>
+    </header>
+
+    <div class="movie-wrapper hidden">
+      <div class="search-movie">
+        <div class="unsuccessful-search">
+          <h2>Oops, filme não encontrado</h2>
+          <h3>Tente novamente</h3>
+        </div>
+      </div>
+
+    </div>
+    
+    <div class="menu-expanded-wrapper hidden">
+      <div class="menu-expanded menu-expanded-hidden">
+        <div class="list-genres">
+
+          <h2>Gêneros</h2>
+        </div>
+      </div>
+    </div>
+
+    <main>
+      <div class="outdoor">
+        <div class="outdoor-wrapper">
+          <div class="outdoor-card">
+          </div>
+        </div>
+        <button class="button-left-outdoor">◀</button>
+        <button class="button-right-outdoor">▶</button>
+      </div>
+
+      <div class="sections">
+        <div id="fav-movie">
+
+          <h3>Favoritos</h3>
+          <div>
+            <div>
+              <div class="fav">
+              </div>
+            </div>
+            
+            <button class="button-left-outdoor">◀</button>
+            <button class="button-right-outdoor">▶</button>
+          </div>
+        </div>
+
+        <div id="theaters">
+          <h3>Em cartaz</h3>
+          <div>
+            <div>
+              <div class="fav">
+              </div>
+            </div>
+            
+            <button class="button-left-outdoor">◀</button>
+            <button class="button-right-outdoor">▶</button>
+          </div>
+        </div>
+      </div>
+
+      <div id="modal-wrapper" class="hidden">
+        <div id="modal">
+        </div>
+      </div>
+    </div>
+
+    <footer>
+      <div class="footer-container">
+        <div class="references">
+
+          <a href="https://www.themoviedb.org/" target="_blank">
+
+            <img src="./assets/blue_square_1-5bdc75aaebeb75dc7ae79426ddd9be3b2be1e342510f8202baf6bffa71d7f5c4.svg"
+             alt="">
+          </a>
+
+           <a href="https://www.themoviedb.org/" target="_blank">themoviedb.org</a>
+        </div>
+        
+        <div class="social">
+          <a href="https://instagram.com/andre_goncalves02?igshid=MzNlNGNkZWQ4Mg%3D%3D" target="_blank">
+            <i class="fa-brands fa-instagram fa-2xl"></i>
+          </a>
+
+          <a href="https://www.linkedin.com/in/andregonçalvesv" target="_blank">
+            <i class="fa-brands fa-linkedin fa-2xl"></i>
+          </a>
+        </div>
+      </div>
+    </footer>
+
+    <button class="scroll-top scroll-top-hidden">
+      <a href="#">
+        <i class="fa-solid fa-arrow-up fa-2xl"></i>
+      </a>
+    </button>
+
+    <script src="./js/index.js" type="module"></script>
+  </body>
+</html>
